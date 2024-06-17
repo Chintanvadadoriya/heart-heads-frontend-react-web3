@@ -1,0 +1,23 @@
+@import "../../global.scss";
+// @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Outfit:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
+
+
+.voting_history{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 46px;
+    margin-bottom: 16px;
+    // background: #555757;
+    background-color: #655b7b;
+    border-radius: 9px;
+    font-size: 22px;
+    font-family: 'Sora';
+    font-weight: bold;
+    @media only screen and (max-width: 991px) {
+      padding: 10px 20px;
+      font-size: 20px;
+    }
+}

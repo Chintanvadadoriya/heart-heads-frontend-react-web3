@@ -1,0 +1,870 @@
+{
+    "background": [
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/1%2310.png",
+            "category": "Background",
+            "name": "Orange",
+            "quantity": 3000,
+            "rarity": "Common"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/2%2310.png",
+            "category": "Background",
+            "name": "Sky Blue",
+            "quantity": 1000,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/3%2310.png",
+            "category": "Background",
+            "name": "Mint Green",
+            "quantity": 900,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/4%2310.png",
+            "category": "Background",
+            "name": "Vermillion Red",
+            "quantity": 450,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/5%2310.png",
+            "category": "Background",
+            "name": "Grey",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/6%2310.png",
+            "category": "Background",
+            "name": "Stone Blue",
+            "quantity": 86,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/7%2310.png",
+            "category": "Background",
+            "name": "Yellow",
+            "quantity": 9,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/8%2310.png",
+            "category": "Background",
+            "name": "Lilac Purple",
+            "quantity": 6,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/9%2310.png",
+            "category": "Background",
+            "name": "Lime Green",
+            "quantity": 3,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmVwaTTr31wRA6gxrMnqq6rBc4miCxtqRcyvYuFqzh4Q6y/10%2310.png",
+            "category": "Background",
+            "name": "Baby Pink",
+            "quantity": 1,
+            "rarity": "God Tier"
+        }
+    ],
+    "base": [
+        {
+            "image": "https://ipfs.io/ipfs/QmQVnLBF24qsT8HEUxDwy3ARqg2Vr3hVmiu3dJUcEtntZv",
+            "category": "Base",
+            "name": "Modern",
+            "quantity": 5455,
+            "rarity": "Common"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmUkYruomQ1kq91vJQ7W8N9S2S3axkmtHMDHeEPKLQF2fz",
+            "category": "Base",
+            "name": "Old-School",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        }
+    ],
+    "clothes": [
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/1%232.png",
+            "category": "Clothes",
+            "name": "HEX Logo T-Shirt",
+            "quantity": 600,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/2%232.png",
+            "category": "Clothes",
+            "name": "HEX Logo & T-Shirt",
+            "quantity": 1000,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/3%232.png",
+            "category": "Clothes",
+            "name": "Striped T-Shirt 1",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/4%232.png",
+            "category": "Clothes",
+            "name": "Pink T-Shirt",
+            "quantity": 250,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/5%232.png",
+            "category": "Clothes",
+            "name": "Red T-Shirt",
+            "quantity": 250,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/6%232.png",
+            "category": "Clothes",
+            "name": "Floral T-Shirt 1",
+            "quantity": 250,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/7%232.png",
+            "category": "Clothes",
+            "name": "Floral T-Shirt 2",
+            "quantity": 250,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/8%232.png",
+            "category": "Clothes",
+            "name": "Dotted Shirt",
+            "quantity": 150,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/9%232.png",
+            "category": "Clothes",
+            "name": "Gucci Tracksuit 1",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/10%232.png",
+            "category": "Clothes",
+            "name": "Gucci Tracksuit 2",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/11%232.png",
+            "category": "Clothes",
+            "name": "LV T-Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/12%232.png",
+            "category": "Clothes",
+            "name": "Striped Polo Shirt",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/13%232.png",
+            "category": "Clothes",
+            "name": "Tartan Shirt",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/14%232.png",
+            "category": "Clothes",
+            "name": "Gucci T-Shirt 1",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/15%232.png",
+            "category": "Clothes",
+            "name": "Gold Suit X Black Shirt",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/16%232.png",
+            "category": "Clothes",
+            "name": "Grey Suit X Black T-Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/17%232.png",
+            "category": "Clothes",
+            "name": "Gold Suit X Pink Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/18%232.png",
+            "category": "Clothes",
+            "name": "Black Suit X Red Shirt",
+            "quantity": 20,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/19%232.png",
+            "category": "Clothes",
+            "name": "Grey Suit X Pink Paisley Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/20%232.png",
+            "category": "Clothes",
+            "name": "Red Dotted Suit X Black Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/21%232.png",
+            "category": "Clothes",
+            "name": "Red Leopard Print T-Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/22%232.png",
+            "category": "Clothes",
+            "name": "Green Floral Shirt",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/23%232.png",
+            "category": "Clothes",
+            "name": "Gold Pattern Shirt",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/24%232.png",
+            "category": "Clothes",
+            "name": "Gucci Jacket 1",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/25%232.png",
+            "category": "Clothes",
+            "name": "Fluffy Jacket",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/26%232.png",
+            "category": "Clothes",
+            "name": "Burberry Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/27%232.png",
+            "category": "Clothes",
+            "name": "Gucci Tracksuit 3",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/28%232.png",
+            "category": "Clothes",
+            "name": "LV Tracksuit 1",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/29%231.png",
+            "category": "Clothes",
+            "name": "Gucci Jacket X Gucci T-Shirt",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/30%232.png",
+            "category": "Clothes",
+            "name": "Black LV Shirt",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/31%232.png",
+            "category": "Clothes",
+            "name": "Nintendo T-Shirt",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/32%232.png",
+            "category": "Clothes",
+            "name": "Rainbow Shirt",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/33%232.png",
+            "category": "Clothes",
+            "name": "Paisley Shirt",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/34%232.png",
+            "category": "Clothes",
+            "name": "Floral Suit X Red Shirt",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/35%232.png",
+            "category": "Clothes",
+            "name": "Black Shirt",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/36%232.png",
+            "category": "Clothes",
+            "name": "Striped Polo",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/37%232.png",
+            "category": "Clothes",
+            "name": "Black Suit X Grey Shirt",
+            "quantity": 25,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/38%232.png",
+            "category": "Clothes",
+            "name": "Black Suit X Green Shirt",
+            "quantity": 25,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/39%232.png",
+            "category": "Clothes",
+            "name": "Pink Shirt",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/40%232.png",
+            "category": "Clothes",
+            "name": "Gold & Grey Tracksuit",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/41%232.png",
+            "category": "Clothes",
+            "name": "Orange & Black Tracksuit",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/42%232.png",
+            "category": "Clothes",
+            "name": "Gucci Tracksuit 4",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/43%232.png",
+            "category": "Clothes",
+            "name": "Gucci Tracksuit 5",
+            "quantity": 15,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/44%232.png",
+            "category": "Clothes",
+            "name": "Mint Tracksuit",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/45%232.png",
+            "category": "Clothes",
+            "name": "Black & White Striped Shirt",
+            "quantity": 200,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/46%232.png",
+            "category": "Clothes",
+            "name": "Purple Shirt",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/47%232.png",
+            "category": "Clothes",
+            "name": "Red Suit X Black Shirt",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/48%232.png",
+            "category": "Clothes",
+            "name": "Versace Shirt",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/49%232.png",
+            "category": "Clothes",
+            "name": "LV Tracksuit 2",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmXS8kSh3x6ZJLAe6Y3ZYFUqpTKsrRDNRipc16wTpKJzdr/50%232.png",
+            "category": "Clothes",
+            "name": "Versace Tracksuit",
+            "quantity": 10,
+            "rarity": "Legendary"
+        }
+    ],
+    "earrings": [
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/1%236.png",
+            "category": "Earrings",
+            "name": "Black Diamond",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/2%236.png",
+            "category": "Earrings",
+            "name": "Gold Hexagon",
+            "quantity": 1000,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/3%236.png",
+            "category": "Earrings",
+            "name": "Silver Hexagon",
+            "quantity": 3000,
+            "rarity": "Common"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/4%236.png",
+            "category": "Earrings",
+            "name": "Gold Elaborate Hexagon",
+            "quantity": 200,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/5%236.png",
+            "category": "Earrings",
+            "name": "Silver Elaborate Hexagon",
+            "quantity": 280,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/6%236.png",
+            "category": "Earrings",
+            "name": "Gold Spiked Hoop",
+            "quantity": 54,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/7%236.png",
+            "category": "Earrings",
+            "name": "Skull",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/8%236.png",
+            "category": "Earrings",
+            "name": "Gold 'Rektangle'",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/9%236.png",
+            "category": "Earrings",
+            "name": "Gold Hoop",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmaX3jbrGpbD6MUpqQZc9zPoJWP8WkT5EZPegArBYqsgmX/10%236.png",
+            "category": "Earrings",
+            "name": "Silver Hoop",
+            "quantity": 500,
+            "rarity": "Rare"
+        }
+    ],
+    "hat": [
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/1%234.png",
+            "category": "Hat",
+            "name": "Black Bowler",
+            "quantity": 1250,
+            "rarity": "Common"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/2%234.png",
+            "category": "Hat",
+            "name": "Tan Fedora",
+            "quantity": 750,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/3%234.png",
+            "category": "Hat",
+            "name": "Top Hat",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/4%234.png",
+            "category": "Hat",
+            "name": "Burgundy Patrol Cap",
+            "quantity": 250,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/5%234.png",
+            "category": "Hat",
+            "name": "Burgundy Beanie Hat",
+            "quantity": 1000,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/6%234.png",
+            "category": "Hat",
+            "name": "Bitcoin Cap",
+            "quantity": 12,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/7%234.png",
+            "category": "Hat",
+            "name": "Brown Trilby",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/8%234.png",
+            "category": "Hat",
+            "name": "Bucket Hat",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/9%234.png",
+            "category": "Hat",
+            "name": "Silver Visor",
+            "quantity": 200,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/10%234.png",
+            "category": "Hat",
+            "name": "Captain Hat",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/11%234.png",
+            "category": "Hat",
+            "name": "Burberry Bonnet",
+            "quantity": 10,
+            "rarity": "Legendary"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/12%234.png",
+            "category": "Hat",
+            "name": "Striped Gucci Cap",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/13%234.png",
+            "category": "Hat",
+            "name": "Green Cap",
+            "quantity": 800,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/14%234.png",
+            "category": "Hat",
+            "name": "Fluffy Cap",
+            "quantity": 81,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/Qmf9jgnKpPhhk2MToosHUgiCmh4HyNP3mGWqJGbDBpUgbN/15%234.png",
+            "category": "Hat",
+            "name": "Blue Gucci Cap",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPmb8E9ewz7uoUEmrhpC926rLBHLKf3bJnJ9o7AdyMt6M",
+            "category": "Hat",
+            "name": "Santas Hat",
+            "quantity": 45,
+            "rarity": "Special"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmZGUm9dJmr9Jpdu9BeEGmgQd8wkjsbmEbraJuBTcQaQTg",
+            "category": "Hat",
+            "name": "HEXFORCE Cap ",
+            "quantity": 500,
+            "rarity": "Special"
+        }
+    ],
+    "necklace": [
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/1%234.png",
+            "category": "Necklace",
+            "name": "HEX Logo Pendant",
+            "quantity": 800,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/2%234.png",
+            "category": "Necklace",
+            "name": "Silver HEX Pendant",
+            "quantity": 1000,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/3%234.png",
+            "category": "Necklace",
+            "name": "Gold HEX Pendant",
+            "quantity": 150,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmWmLfCc9xdDewHxaBqtbTwyCC79hJZKTE5FFAVm27ZUMT",
+            "category": "Necklace",
+            "name": "Gold Money & Power",
+            "quantity": 900,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmWHuJPffwhmCRocnx5igXG7tFPMYf3CMtbQR7m3AVNwo3",
+            "category": "Necklace",
+            "name": "Silver Money & Power",
+            "quantity": 2110,
+            "rarity": "Common"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmYuyypjAphsDPFVoEiQ4pZqF3xukek9TwixLGmFyhCJqC",
+            "category": "Necklace",
+            "name": "HEX Diamond Pendant",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/7%234.png",
+            "category": "Necklace",
+            "name": "Gold HEX Logo Pendant",
+            "quantity": 80,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/8%234.png",
+            "category": "Necklace",
+            "name": "Gold HEX Logo X Money & Power",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/9%234.png",
+            "category": "Necklace",
+            "name": "Gold HEX Pendant X Money & Power",
+            "quantity": 150,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/10%234.png",
+            "category": "Necklace",
+            "name": "Silver HEX Pendant X Money & Power",
+            "quantity": 200,
+            "rarity": "Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/11%234.png",
+            "category": "Necklace",
+            "name": "Gold Scarab",
+            "quantity": 14,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image": "https://ipfs.io/ipfs/QmPjKs41zQfhmMivoRrjHhQT8YJcQnQpxdjyMw51xnB5wR/12%234.png",
+            "category": "Necklace",
+            "name": "Silver Scarab",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        }
+    ],
+    "sunglasses": [
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/1%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Round",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/2%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Steampunk",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/3%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Wayfarer",
+            "quantity": 200,
+            "rarity": "Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/4%233.png" ,
+            "category": "Sunglasses",
+            "name": "Brown Clubmaster",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/5%233.png" ,
+            "category": "Sunglasses",
+            "name": "Wood Rectangle",
+            "quantity": 2000,
+            "rarity": "Common"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/6%233.png", 
+            "category": "Sunglasses",
+            "name": "Retro Wood",
+            "quantity": 58,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/7%233.png" ,
+            "category": "Sunglasses",
+            "name": "Red Aviators",
+            "quantity": 1750,
+            "rarity": "Common"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/8%233.png" ,
+            "category": "Sunglasses",
+            "name": "White Shutter Square",
+            "quantity": 25,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/9%233.png", 
+            "category": "Sunglasses",
+            "name": "White Shutter Aviators",
+            "quantity": 20,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/10%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Fashion Striped Square",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/11%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Square",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/12%233.png" ,
+            "category": "Sunglasses",
+            "name": "Tortoise Square",
+            "quantity": 500,
+            "rarity": "Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/13%233.png" ,
+            "category": "Sunglasses",
+            "name": "Black Oversized",
+            "quantity": 75,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/14%233.png" ,
+            "category": "Sunglasses",
+            "name": "Silver Wayfarer",
+            "quantity": 50,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/15%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Fashion Shield",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/16%233.png" ,
+            "category": "Sunglasses",
+            "name": "Gold Shield",
+            "quantity": 30,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/17%233.png" ,
+            "category": "Sunglasses",
+            "name": "Silver Shield",
+            "quantity": 30,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/18%233.png" ,
+            "category": "Sunglasses",
+            "name": "Black Wayfarer Square",
+            "quantity": 100,
+            "rarity": "Ultra Rare"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/19%233.png" ,
+            "category": "Sunglasses",
+            "name": "Orange Laser Eyes",
+            "quantity": 1,
+            "rarity": "God Tier"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmdqWieVqGwwHzjq2goyE6obRv7LN3VbRSiVuSHwMYp2kB/20%233.png" ,
+            "category": "Sunglasses",
+            "name": "Blue Laser Eyes",
+            "quantity": 5,
+            "rarity": "Legendary"
+        },
+        {
+            "image":"https://ipfs.io/ipfs/QmZSW4zGXtzPjy1viiqemZYvCxUBkXj5hJMS6nGJU6Sgpg" ,
+            "category": "Sunglasses",
+            "name": "TangGang Shades",
+            "quantity": 5,
+            "rarity": "Special"
+        }
+    ]
+}

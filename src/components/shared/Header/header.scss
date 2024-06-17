@@ -1,0 +1,328 @@
+@import "../../../global.scss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Outfit:wght@300;400;500;600;700&display=swap");
+.header-main {
+    padding: 16px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 999;
+    background-color: #060714;
+
+    @media only screen and (max-width: 1199px) {
+        padding: 15px 25px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .header-main-left {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .toggle-menu-bar {
+            display: none;
+            @media only screen and (max-width: 767px) {
+                display: block;
+                position: absolute;
+                left: 0px;
+            }
+        }
+        .h-logo {
+            padding-right: 30px;
+
+            @media only screen and (max-width: 767px) {
+                padding-right: 0px;
+                padding-left: 40px;
+            }
+
+            @media only screen and (max-width: 991px) {
+                img {
+                    width: 82px;
+                }
+            }
+        }
+
+        ul {
+            margin: 0px -20px;
+            padding: 0px;
+            list-style: none;
+            display: flex;
+
+
+            @media only screen and (max-width: 767px) {
+                position: fixed;
+                top: 0px;
+                height: 100%;
+                border: 1px solid #141e4d;
+                background-image: linear-gradient(to right, rgba(32, 41, 81, 1), rgba(4, 9, 32, 1), rgba(32, 41, 81, 1), rgba(4, 9, 32, 1), rgba(32, 41, 81, 1));
+                background: linear-gradient(to right, rgba(32, 41, 81, 1), rgba(32, 41, 81, 1), rgba(4, 9, 32, 1));
+                left: -300px;
+                width: 300px;
+                z-index: 99;
+                padding: 25px 15px;
+                transition: 0.5s;
+                flex-direction: column;
+                border-radius: 0px 25px 25px 0px;
+                li {
+                    a {
+                        display: block;
+                        color: #fff;
+                        padding: 7px;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                    &.close-icon {
+                            position: absolute;
+                                right: -11px;
+                                top: 1px;
+                                display: block !important;
+                        a {
+                            width: 50px;
+                            height: 50px;
+                            display: flex;
+                            border-radius: 50px;
+                            align-items: center;
+                            
+                            justify-content: center;
+                            background-image: linear-gradient(to right, rgba(32, 41, 81, 1), rgba(4, 9, 32, 1), rgba(32, 41, 81, 1), rgba(4, 9, 32, 1), rgba(32, 41, 81, 1));
+                            background: linear-gradient(to right, rgba(32, 41, 81, 1), rgba(32, 41, 81, 1), rgba(4, 9, 32, 1));
+                        }
+                    }
+                }
+                &.hide_nav_menu {
+                    left: 0px;
+                    
+                }
+
+            }
+
+            li {
+                padding: 0px 20px;
+                @media screen and (max-width: 1399px) {
+                    padding: 0px 10px;
+                }
+                @media only screen and (max-width: 991px) {
+                    padding: 0px 5px;
+                }
+                
+                &.close-icon {
+                    display: none;
+                }
+
+                a {
+                    color: #7b7f97;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-family: "Outfit", sans-serif;
+                    @media screen and (max-width: 1399px) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .compose-btn {
+            padding-left: 30px;
+
+            @media only screen and (max-width: 767px) {
+                padding-left: 20px;
+            }
+
+            button {
+                display: flex;
+                align-items: center;
+                background: #060714;
+                background-clip: padding-box;
+                border: solid 2px transparent;
+                border-radius: 10px;
+                position: relative;
+                color: #000;
+                padding: 15px 20px;
+
+                @media only screen and (max-width: 767px) {
+                    padding: 9px 6px;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    margin: -2px;
+                    border-radius: inherit;
+                    background: linear-gradient(
+                            97deg,
+                            #f326b4 0.17%,
+                            #fe511b 67.12%
+                        ),
+                        #fe511b;
+                }
+
+                span {
+                    font-size: 16px;
+                    line-height: 20px;
+                    background: linear-gradient(
+                        to right,
+                        #f326b4,
+                        #fe511b,
+                        #fe511b
+                    );
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    padding: 0px 10px;
+                    font-weight: 500;
+                    font-family: "Outfit", sans-serif;
+
+                    @media only screen and (max-width: 767px) {
+                        font-size: 12px;
+                        line-height: 12px;
+                        padding: 0px 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-main-right {
+        button {
+            // display: flex;
+            // align-items: center;
+            // justify-content: space-between;
+            // justify-content: center;
+            // height: 52px;
+            // background: #060714;
+            // background-clip: padding-box;
+            // border: solid 2px transparent;
+            // border-radius: 10px;
+            // position: relative;
+            // padding: 0px;
+            // color: #fff;
+            align-items: center;
+            background: #060714;
+            background-clip: padding-box;
+            border: 2px solid #0000;
+            border-radius: 10px;
+            color: #fff;
+            display: flex;
+            height: 52px;
+            padding: 0;
+            position: relative;
+
+            @media only screen and (max-width: 767px) {
+                height: 45px;
+                font-size: 16px;
+                &.btn-block-mobile {
+                    position: relative;
+                    overflow: hidden;
+                    .tw-connect-wallet {
+                        font-size: 0px;
+                        padding: 0px;
+                        position: absolute;
+                        width: 100%;
+                        background: transparent;
+                        height: 100%;
+                        border: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            &.tw-connect-wallet {
+                background: linear-gradient(to right,
+                            #f326b4,
+                            #fe511b,
+                            #fe511b);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    padding: 0px 10px;
+                    font-weight: 700;
+                    font-family: "Outfit", sans-serif;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                @media only screen and (max-width: 767px) {
+                        font-size: 12px;
+                        min-width: inherit !important;
+                        padding: 5px;
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+                margin: -2px;
+                border-radius: inherit;
+                background: linear-gradient(
+                        97deg,
+                        #f326b4 0.17%,
+                        #fe511b 67.12%
+                    ),
+                    #fe511b;
+
+                @media only screen and (max-width: 991px) {
+                    content: "";
+                }
+            }
+
+            .icon-right {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px 0px 0px 10px;
+                background: linear-gradient(
+                        97deg,
+                        #f326b4 0.17%,
+                        #fe511b 67.12%
+                    ),
+                    #fe511b;
+                position: relative;
+                top: 0px;
+
+                @media only screen and (max-width: 991px) {
+                    border-radius: 10px;
+                }
+
+                @media only screen and (max-width: 767px) {
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+
+            span {
+                font-size: 16px;
+                line-height: 20px;
+                background: linear-gradient(
+                    to right,
+                    #f326b4,
+                    #fe511b,
+                    #fe511b
+                );
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding: 0px 10px;
+                font-weight: 700;
+                font-family: "Outfit", sans-serif;
+                text-transform: uppercase;
+
+                @media only screen and (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "short_name": "Heart Heads",
+  "name": "heart-heads",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "612x612",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "favicon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://heart-heads.com",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "id": "https://heart-heads.com/",
+  "description": "Heart Heads - NFT Collection, Mint items and create your unique heart head on PulseChain!",
+  "scope": "https://heart-heads.com",
+  "orientation": "any",
+  "prefer_related_applications": true,
+  "shortcuts": [
+    {
+      "name": "heart Heads",
+      "url": "https://heart-heads.com/",
+      "description": "Heart Heads - NFT Collection"
+    }
+  ]
+}

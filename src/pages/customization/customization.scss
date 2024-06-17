@@ -1,0 +1,318 @@
+/** @format */
+
+@import "../../global.scss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Outfit:wght@300;400;500;600;700&display=swap");
+
+.customazation-main {
+    position: relative;
+    background-color: #0a0320;
+    padding: 75px 0px;
+    font-family: "DM Sans", sans-serif;
+
+    .common-block-graphics {
+        position: absolute;
+        right: 0px;
+        top: -80px;
+        opacity: 0.7;
+
+        @media only screen and (max-width: 991px) {
+            top: 300px;
+        }
+    }
+
+    .common-block-graphics-two {
+        position: absolute;
+        left: 0px;
+        top: -200px;
+        opacity: 0.7;
+
+        @media only screen and (max-width: 991px) {
+            top: -100px;
+        }
+    }
+
+    .customazation-inner {
+        position: relative;
+        display: flex;
+        padding: 25px;
+
+        @media only screen and (max-width: 1440px) {
+            padding: 10px;
+        }
+
+        @media only screen and (max-width: 991px) {
+            flex-direction: column;
+            padding: 15px;
+        }
+
+        .customazation-inner-block {
+            width: 33.33%;
+            padding: 0px 25px;
+
+            @media only screen and (max-width: 1440px) {
+                padding: 0px 10px;
+            }
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+                padding: 0px 0px 25px;
+            }
+
+            .customazation-inner-block-middle {
+                position: relative;
+                height: 560px;
+                margin-bottom: 30px;
+                border-radius: 30px;
+
+                // background-color: #fff;
+                @media only screen and (max-width: 1500px) {
+                    height: 480px;
+                }
+
+                @media only screen and (max-width: 1300px) {
+                    height: 400px;
+                }
+
+                @media only screen and (max-width: 1199px) {
+                    height: 350px;
+                }
+
+                @media only screen and (max-width: 991px) {
+                    height: auto;
+                }
+
+                .loader {
+                    position: absolute;
+                    width: 50%;
+                    height: 50%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 30px;
+                }
+
+                p {
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background-color: rgba(0, 0, 0, 0.2);
+                    font-size: 16px;
+                    padding: 13px 20px;
+                    border-radius: 30px;
+                    color: #fff;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .btn-product {
+                display: flex;
+                gap: 5px;
+
+                button {
+                    width: 50%;
+                    padding: 20px;
+                    border-radius: 30px;
+                }
+            }
+
+            h2 {
+                font-size: 32px;
+                color: #fff;
+                line-height: 34px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                background: linear-gradient(to right, #80ffcc, #f326b4, #f326b4);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: "Sora", sans-serif;
+            }
+
+            .customazation-inner-block-acco {
+                padding: 15px 30px;
+                background-color: #181032;
+                border-radius: 30px;
+
+                .slick-arrow {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 50%;
+                    left: -15px;
+                    z-index: 9;
+                    background-color: rgba(38, 40, 64, 0.9);
+                    transform: translate(0, -50%);
+
+                    &::before {
+                        background-image: url('data:image/svg+xml,<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 15.1929L0 7.69287L7.5 0.192871L9.25 1.94287L3.5 7.69287L9.25 13.4429L7.5 15.1929Z" fill="white"/></svg>');
+                        content: "";
+                        opacity: 1;
+                        z-index: 9;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        width: 8px;
+                        height: 16px;
+                        transform: translate(-50%, -50%);
+                    }
+
+                    &.slick-next {
+                        left: auto !important;
+                        right: -15px;
+
+                        &::before {
+                            background-image: url('data:image/svg+xml,<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.75 7.69287L0 1.94287L1.75 0.192871L9.25 7.69287L1.75 15.1929L0 13.4429L5.75 7.69287Z" fill="white"/></svg>');
+                        }
+                    }
+                }
+
+                .MuiAccordion-root {
+                    background: transparent;
+                    width: 100%;
+                    margin: 0 auto;
+                    border: none;
+                    padding: 20px 0px 0px;
+                    box-shadow: none;
+
+                    &::before {
+                        content: none;
+                    }
+
+                    .MuiButtonBase-root {
+                        background: transparent;
+                        padding: 0px;
+
+                        .MuiAccordionSummary-content {
+                            padding: 0px 0px 20px;
+                            margin: 0px;
+                            position: relative;
+
+                            .MuiTypography-root {
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #fff;
+                                font-weight: 400;
+                                font-family: "DM Sans", sans-serif;
+                            }
+
+                            &::before {
+                                content: "";
+                                background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.9997 12.5L6.46387 8.965L7.64303 7.78667L9.9997 10.1433L12.3564 7.78667L13.5355 8.965L9.9997 12.5008V12.5Z" fill="white"/></svg>');
+                                position: absolute;
+                                right: 0px;
+                                background-size: contain;
+                                width: 20px;
+                                height: 20px;
+                                top: 5px;
+                                background-repeat: no-repeat;
+                            }
+
+                            &.Mui-expanded {
+                                &::before {
+                                    background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.0003 7.5L13.5361 11.035L12.357 12.2133L10.0003 9.85667L7.64363 12.2133L6.46447 11.035L10.0003 7.49917L10.0003 7.5Z" fill="white"/></svg>');
+                                }
+                            }
+                        }
+                    }
+
+                    .MuiCollapse-root {
+                        .MuiAccordionDetails-root {
+                            padding: 0px 0px 25px;
+
+                            .acco-details-block {
+                                .acco-details-block-inner {
+                                    padding: 5px;
+
+                                    @media only screen and (max-width: 1700px) {
+                                        margin: 0 auto;
+                                        display: table;
+                                    }
+
+                                    .acco-details-block-inner-color {
+                                        width: 95px;
+                                        height: 95px;
+                                        border-radius: 20px;
+                                        position: relative;
+                                        background-color: #fff;
+
+                                        img {
+                                            border-radius: 20px;
+                                        }
+
+                                        // &.bg-yellow {
+                                        //     background-color: #FFA539;
+                                        // }
+                                        &.flex-auto-hover {
+                                            button {
+                                                top: 50%;
+                                                bottom: auto;
+                                                transform: translate(-50%, -50%);
+                                                opacity: 0;
+                                                visibility: hidden;
+                                            }
+
+                                            &:hover {
+                                                button {
+                                                    opacity: 1;
+                                                    visibility: visible;
+                                                }
+                                            }
+                                        }
+
+                                        button {
+                                            font-size: 11px;
+                                            position: absolute;
+                                            bottom: 10px;
+                                            left: 50%;
+                                            transform: translate(-50%, 0px);
+                                            padding: 5px 14px;
+                                            z-index: 9999;
+                                        }
+                                        .count-text {
+                                            position: absolute;
+                                            top: 0px;
+                                            right: 0px;
+                                            padding: 1px 8px;
+                                            background: #181032;
+                                            color: #fff;
+                                            z-index: 999;
+                                            border-radius: 20px;
+                                            margin: 0px;
+                                        }
+                                        .acco-details-block-inner-color-second {
+                                            position: relative;
+                                        
+                                            .acco-details-block-inner-color-img-second {
+                                                width: 100%;
+                                                height: 100%;
+                                                background-color: #fff;
+                                                border-radius: 20px;
+                                                position: absolute;
+                                                top: 10px;
+                                                z-index: 999;
+                                                height: 95px;
+                                                right: 5px;
+                                                border: 1px solid #000;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

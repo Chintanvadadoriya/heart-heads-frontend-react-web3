@@ -1,0 +1,174 @@
+/** @format */
+
+@import "../../global.scss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Outfit:wght@300;400;500;600;700&display=swap");
+.faq-main {
+    position: relative;
+    background-color: #0A0320;
+    padding: 75px 0px;
+    font-family: 'DM Sans', sans-serif;
+
+    @media only screen and (max-width: 1400px) {
+        padding: 50px 0px;
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+
+        @media only screen and (max-width: 1400px) {
+            max-width: 100%;
+            padding: 0px 15px;
+        }
+    }
+
+    .common-block-graphics {
+        position: absolute;
+        right: 0px;
+        top: -80px;
+        opacity: 0.7;
+
+        @media only screen and (max-width: 1199px) {
+            width: 70%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+            top: 300px;
+            opacity: 0.5;
+        }
+    }
+
+    .common-block-graphics-two {
+        position: absolute;
+        left: -150px;
+        top: -200px;
+        opacity: 0.7;
+
+        @media only screen and (max-width: 1199px) {
+            width: 70%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+            top: 0px;
+            opacity: 0.5;
+        }
+    }
+
+    .faq-inner {
+        position: relative;
+
+        .faq-inner-title {
+            text-align: center;
+            margin-bottom: 25px;
+
+            h3 {
+                font-size: 30px;
+                line-height: 36px;
+                color: #fff;
+                margin-bottom: 10px;
+
+                @media only screen and (max-width: 991px) {
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+            }
+
+            p {
+                color: #79759A;
+                font-size: 14px;
+                line-height: 22px;
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+
+        .MuiAccordion-root {
+            background: transparent;
+            width: 50%;
+            margin: 0 auto;
+            border: none;
+            box-shadow: none;
+            border-bottom: 1px solid #312E47;
+
+            @media only screen and (max-width: 1400px) {
+                width: 70%;
+            }
+
+            @media only screen and (max-width: 1199px) {
+                width: 80%;
+            }
+
+            @media only screen and (max-width: 991px) {
+                width: 100%;
+            }
+
+            &::before {
+                content: none;
+            }
+
+            .MuiButtonBase-root {
+                background: transparent;
+                padding: 0px;
+
+                .MuiAccordionSummary-content {
+                    padding: 20px 0px;
+                    margin: 0px;
+                    position: relative;
+
+                    .MuiTypography-root {
+                        font-size: 20px;
+                        line-height: 26px;
+                        color: #fff;
+                        font-weight: 700;
+                        font-family: 'DM Sans', sans-serif;
+                        padding-right: 20px;
+
+                        @media only screen and (max-width: 991px) {
+                            font-size: 18px;
+                            line-height: 26px;
+                        }
+                    }
+
+                    &::before {
+                        content: "";
+                        background-image: url('data:image/svg+xml,<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 7V15M7 11H15M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z" stroke="%23FB4EF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+                        position: absolute;
+                        right: 0px;
+                        background-size: contain;
+                        width: 20px;
+                        height: 20px;
+                        top: 23px;
+                        background-repeat: no-repeat;
+                    }
+
+                    &.Mui-expanded {
+                        &::before {
+                            background-image: url('data:image/svg+xml,<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 11H15M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z" stroke="%23FB4EF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+                        }
+                    }
+                }
+            }
+
+            .MuiCollapse-root {
+                .MuiAccordionDetails-root {
+                    padding: 0px 0px 25px;
+
+                    .MuiTypography-root {
+                        font-size: 20px;
+                        line-height: 26px;
+                        color: #fff;
+                        font-weight: 300;
+                        font-family: 'DM Sans', sans-serif;
+
+                        @media only screen and (max-width: 991px) {
+                            font-size: 18px;
+                            line-height: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
